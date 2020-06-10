@@ -80,7 +80,7 @@ router.put('/posts/:id', (req, res) => {
 			console.log(error)
 			res.status(500).json({
 				error: 'The post information could not be modified.'
-      })
+      	})
 		})
 })
 
